@@ -11,6 +11,7 @@ export default function SubmitButton({
     <button
       type="submit"
       disabled={disabled}
+      title="Add your sticky"
       className="rounded-md py-2 px-3 bg-[#ffad14] text-[#7c5b00] transition-all duration-300 hover:bg-[#df940a] hover:text-white"
     >
       {children}

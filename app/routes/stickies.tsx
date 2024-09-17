@@ -59,7 +59,8 @@ export default function Note() {
             <input
               type="text"
               className="rounded-md px-3 py-2 w-full bg-primary border-none text-white outline-none focus:outline-1 focus:outline-[#ffc014] duration-300 transition-all"
-              placeholder="Write your note"
+              placeholder="Write your sticky"
+              title="It can be anything!"
               required
               name="note"
             />
